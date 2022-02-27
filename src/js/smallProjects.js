@@ -23,8 +23,17 @@ export default function smallProjects() {
 		overlay.classList.add('overlay-slide-left');
 	}
 
+	// Unhide overflow when the page is loaded
+	const unhide = () => {
+		overlay.hidden = false;
+		console.log('its')
+	}
+
 	// Event Listeners
 	openBtn.addEventListener('click', openMiniProjects);
 	openImg.addEventListener('click', openMiniProjects);
 	backBtn.addEventListener('click', closeMiniProjects);
+
+	// On Load
+	unhide();
 }
