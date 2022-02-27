@@ -1,4 +1,7 @@
 /* Create Overlay for Small Project */
+html, body {	
+	overflow-x: hidden;
+}
 
 .overlay {
 	position: fixed;
@@ -15,7 +18,8 @@
 	transform: translateX(-120vw);
 	transition: all 1s ease-in-out;
 	opacity: 0;
-	overflow-x: scroll;
+	overflow-y: scroll;
+	overflow-x: hidden;
   }
 
 .overlay-slide-right {

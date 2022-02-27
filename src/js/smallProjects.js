@@ -9,16 +9,16 @@ export default function smallProjects() {
 
 	// Open Mini Projects Page
 	const openMiniProjects = () => {
-		html.style.overflow = "hidden";
-		body.style.overflow = "hidden";
+		html.style.overflowY = "hidden";
+		body.style.overflowY = "hidden";
 		overlay.classList.add('overlay-slide-right');
 		overlay.classList.remove('overlay-slide-left');
 	}
 
 	// Close Mini Projects Page
 	const closeMiniProjects = () => {
-		html.style.overflow = "scroll";
-		body.style.overflow = "scroll";
+		html.style.overflowY = "scroll";
+		body.style.overflowY = "scroll";
 		overlay.classList.remove('overlay-slide-right');
 		overlay.classList.add('overlay-slide-left');
 	}
