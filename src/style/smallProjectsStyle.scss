@@ -12,9 +12,9 @@
 	-webkit-backdrop-filter: blur(10.8px);
 	border: 1px solid rgba(255, 255, 255, 0.63);
 	z-index: 9;
-  	transform: translateX(-120vw);
-  	transition: all 1s ease-in-out;
-  	overflow-x: scroll;
+	transform: translateX(-120vw);
+	transition: all 1s ease-in-out;
+	overflow-x: scroll;
   }
 
 .overlay-slide-right {
@@ -59,6 +59,7 @@
 
 .mini-project-text {
 	text-align: center;
+	margin-bottom: 10px;
 }
 
 .mini-projects-container {
@@ -79,6 +80,10 @@
 	margin-bottom: 10px;
 }
 
+.mini-project-image img {
+	width: 450px;
+	height: 253px;
+}
 /* Media Queries */
 
 @media screen and (max-width: 1040px) {
@@ -107,6 +112,11 @@
 	.mini-project {
 		margin: 5px;
 		width: 350px;
+	}
+
+	.mini-project-image img {
+		width: 350px;
+		height: 196px;
 	}
 
 	#mini-btn {
