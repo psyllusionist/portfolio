@@ -133,6 +133,10 @@
 	}
 }
 
+#open-mini-btn, #open-mini-img {
+	cursor: pointer;
+}
+
 @media screen and (max-width: 580px) {
 	#mini-section-header {
 		padding: 10px;
