@@ -18,24 +18,22 @@
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
     <!-- Put here your site title -->
-    <title>Branislav Bosančić | Web Developer</title>
+    <title>Branislav Bosančić | Developer</title>
     <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
     <meta name="keywords" content="[username], [name], skill" />
     <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="Branislav Bosančić | Web Developer" />
+    <meta name="description" content="[Your name here] | Developer" />
 
     <!-- Required librarys -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" type="text/css" href="miniStyle.css">
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
       ScrollReveal({ reset: false });
     </script>
-
-    <!-- Remove this script once you setup your custom portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
 
   <!-- Follow the HTML instructions to create your stunning portfolio website -->
@@ -79,10 +77,10 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info">
               <p class="about-wrapper__info-text">
-                I'm a hard-working, Belgrade-based front-end web developer. My true passion is web development that combines creativity with logic. I enjoy creating beautiful, fast, responsive websites of the highest quality.
+                Hard-working, Belgrade based front-end web developer. I am truly passionate about web development that combines creativity with logic. I enjoy creating beautiful, fast, responsive websites of the highest quality.
               </p>
               <p class="about-wrapper__info-text">
-                Since I am also a hobbyist magician, I am always searching for new solutions. And programming is a little bit like magic to me. What we see on the website is only a small part of what is happening behind the curtain.
+                I am always searching for new solutions. My priority is visual elegance with functionality.
               </p>
               <span class="d-flex mt-3">
                 <a
@@ -121,7 +119,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="http://smartbrain43.herokuapp.com/"
+                  href="https://smartbrain43.herokuapp.com/"
                 >
                   See Live
                 </a>
@@ -137,7 +135,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
-                <a rel="noreferrer" href="http://smartbrain43.herokuapp.com/" target="_blank">
+                <a rel="noreferrer" href="https://smartbrain43.herokuapp.com/" target="_blank">
                   <div data-tilt class="thumbnail rounded js-tilt">
                     <img
                       alt="Project Image"
@@ -165,7 +163,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="http://moviebuddy4.herokuapp.com/"
+                  href="https://moviebuddy4.herokuapp.com/"
                 >
                   See Live
                 </a>
@@ -181,7 +179,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
-                <a rel="noreferrer" href="http://moviebuddy4.herokuapp.com/" target="_blank">
+                <a rel="noreferrer" href="https://moviebuddy4.herokuapp.com/" target="_blank">
                   <div data-tilt class="thumbnail rounded js-tilt">
                     <img
                       alt="Project Image"
@@ -238,10 +236,443 @@
             </div>
           </div>
           <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Mini Projects</h3>
+                <div>
+                  <p class="mb-4">
+                    Vanilla JavaScript Projects. 
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  class="cta-btn cta-btn--hero"
+                  id="open-mini-btn"
+                  href="#projects"
+                >
+                  See More
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a rel="noreferrer" href="#projects" id="open-mini-img">
+                  <div data-tilt class="thumbnail rounded js-tilt">
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project2.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
         </div>
       </div>
     </section>
     <!-- /END Projects Section -->
+
+     <!-- **** Mini Projects Section **** -->
+    <section id="mini-projects">
+
+      <div class="overlay">
+        <div id="mini-section-header">
+            <a
+            rel="noreferrer"
+            target=""
+            class="cta-btn cta-btn--hero"
+            id="back-btn"
+            href="#projects"
+          >
+            ◄ Go Back
+          </a>
+          <h1 id="mini-section-title">
+          Small but fun <span class="text-color-main">JavaScript</span> Projects
+          </h1>
+        </div>
+        <div class="mini-projects-container">
+
+          <!-- Each .mini-project is a project -->
+
+            <div class="mini-project">
+                <div class="mini-project-text">
+                  <h3 class="mini-project-text-title">Quote Generator</h3>
+                  <div class="mini-project-image">
+                  <a rel="noreferrer" href="https://psyllusionist.github.io/quote-generator/" target="_blank">
+                    <div data-tilt class="thumbnail rounded js-tilt">
+                      <img
+                        alt="Project Image"
+                        class="img-fluid"
+                        src="assets/mini-project1.png"
+                      />
+                    </div>
+                  </a>
+                </div>
+                <div class="mini-link-container">
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn cta-btn--hero mini-btn"
+                      id="mini-btn"
+                      href="https://psyllusionist.github.io/quote-generator/"
+                    >
+                      See Live
+                    </a>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn text-color-main mini-source"
+                      id="mini-source"
+                      href="https://github.com/psyllusionist/quote-generator"
+                    >
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+              </div>         
+
+            <!-- /END Project -->
+
+            <!-- Each .mini-project is a project -->
+
+            <div class="mini-project">
+                <div class="mini-project-text">
+                  <h3 class="mini-project-text-title">Infinity Scroll</h3>
+                  <div class="mini-project-image">
+                  <a rel="noreferrer" href="https://psyllusionist.github.io/infinite-scroll/" target="_blank">
+                    <div data-tilt class="thumbnail rounded js-tilt">
+                      <img
+                        alt="Project Image"
+                        class="img-fluid"
+                        src="assets/mini-project2.png"
+                      />
+                    </div>
+                  </a>
+                </div>
+                <div class="mini-link-container">
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn cta-btn--hero mini-btn"
+                      id="mini-btn"
+                      href="https://psyllusionist.github.io/infinite-scroll/"
+                    >
+                      See Live
+                    </a>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn text-color-main mini-source"
+                      id="mini-source"
+                      href="https://github.com/psyllusionist/infinite-scroll"
+                    >
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+              </div>         
+
+            <!-- /END Project -->
+
+            <!-- Each .mini-project is a project -->
+
+            <div class="mini-project">
+                <div class="mini-project-text">
+                  <h3 class="mini-project-text-title">Picture In Picture</h3>
+                  <div class="mini-project-image">
+                  <a rel="noreferrer" href="https://psyllusionist.github.io/picture-in-picture/" target="_blank">
+                    <div data-tilt class="thumbnail rounded js-tilt">
+                      <img
+                        alt="Project Image"
+                        class="img-fluid"
+                        src="assets/mini-project3.png"
+                      />
+                    </div>
+                  </a>
+                </div>
+                <div class="mini-link-container">
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn cta-btn--hero mini-btn"
+                      id="mini-btn"
+                      href="https://psyllusionist.github.io/picture-in-picture/"
+                    >
+                      See Live
+                    </a>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn text-color-main mini-source"
+                      id="mini-source"
+                      href="https://github.com/psyllusionist/picture-in-picture"
+                    >
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+              </div>         
+
+            <!-- /END Project -->
+
+            <!-- Each .mini-project is a project -->
+
+            <div class="mini-project">
+                <div class="mini-project-text">
+                  <h3 class="mini-project-text-title">Joke Teller</h3>
+                  <div class="mini-project-image">
+                  <a rel="noreferrer" href="https://psyllusionist.github.io/joke-teller/" target="_blank">
+                    <div data-tilt class="thumbnail rounded js-tilt">
+                      <img
+                        alt="Project Image"
+                        class="img-fluid"
+                        src="assets/mini-project4.png"
+                      />
+                    </div>
+                  </a>
+                </div>
+                <div class="mini-link-container">
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn cta-btn--hero mini-btn"
+                      id="mini-btn"
+                      href="https://psyllusionist.github.io/joke-teller/"
+                    >
+                      See Live
+                    </a>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn text-color-main mini-source"
+                      id="mini-source"
+                      href="https://github.com/psyllusionist/joke-teller"
+                    >
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+              </div>         
+
+            <!-- /END Project -->
+
+            <!-- Each .mini-project is a project -->
+
+            <div class="mini-project">
+                <div class="mini-project-text">
+                  <h3 class="mini-project-text-title">Light & Dark Mode</h3>
+                  <div class="mini-project-image">
+                  <a rel="noreferrer" href="https://psyllusionist.github.io/light-dark-mode/" target="_blank">
+                    <div data-tilt class="thumbnail rounded js-tilt">
+                      <img
+                        alt="Project Image"
+                        class="img-fluid"
+                        src="assets/mini-project5.png"
+                      />
+                    </div>
+                  </a>
+                </div>
+                <div class="mini-link-container">
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn cta-btn--hero mini-btn"
+                      id="mini-btn"
+                      href="https://psyllusionist.github.io/light-dark-mode/"
+                    >
+                      See Live
+                    </a>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn text-color-main mini-source"
+                      id="mini-source"
+                      href="https://github.com/psyllusionist/light-dark-mode"
+                    >
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+              </div>         
+
+            <!-- /END Project -->
+
+            <!-- Each .mini-project is a project -->
+
+            <div class="mini-project">
+                <div class="mini-project-text">
+                  <h3 class="mini-project-text-title">Animated Template</h3>
+                  <div class="mini-project-image">
+                  <a rel="noreferrer" href="https://psyllusionist.github.io/animated-template/" target="_blank">
+                    <div data-tilt class="thumbnail rounded js-tilt">
+                      <img
+                        alt="Project Image"
+                        class="img-fluid"
+                        src="assets/mini-project6.png"
+                      />
+                    </div>
+                  </a>
+                </div>
+                <div class="mini-link-container">
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn cta-btn--hero mini-btn"
+                      id="mini-btn"
+                      href="https://psyllusionist.github.io/animated-template/"
+                    >
+                      See Live
+                    </a>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn text-color-main mini-source"
+                      id="mini-source"
+                      href="https://github.com/psyllusionist/animated-template"
+                    >
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+              </div>         
+
+            <!-- /END Project -->
+
+            <!-- Each .mini-project is a project -->
+
+            <div class="mini-project">
+                <div class="mini-project-text">
+                  <h3 class="mini-project-text-title">Animated Navigation</h3>
+                  <div class="mini-project-image">
+                  <a rel="noreferrer" href="https://psyllusionist.github.io/animated-navigation/" target="_blank">
+                    <div data-tilt class="thumbnail rounded js-tilt">
+                      <img
+                        alt="Project Image"
+                        class="img-fluid"
+                        src="assets/mini-project7.png"
+                      />
+                    </div>
+                  </a>
+                </div>
+                <div class="mini-link-container">
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn cta-btn--hero mini-btn"
+                      id="mini-btn"
+                      href="https://psyllusionist.github.io/animated-navigation/"
+                    >
+                      See Live
+                    </a>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn text-color-main mini-source"
+                      id="mini-source"
+                      href="https://github.com/psyllusionist/animated-navigation"
+                    >
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+              </div>         
+
+            <!-- /END Project -->
+
+            <!-- Each .mini-project is a project -->
+
+            <div class="mini-project">
+                <div class="mini-project-text">
+                  <h3 class="mini-project-text-title">Music Player</h3>
+                  <div class="mini-project-image">
+                  <a rel="noreferrer" href="https://psyllusionist.github.io/music-player/" target="_blank">
+                    <div data-tilt class="thumbnail rounded js-tilt">
+                      <img
+                        alt="Project Image"
+                        class="img-fluid"
+                        src="assets/mini-project8.png"
+                      />
+                    </div>
+                  </a>
+                </div>
+                <div class="mini-link-container">
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn cta-btn--hero mini-btn"
+                      id="mini-btn"
+                      href="https://psyllusionist.github.io/music-player/"
+                    >
+                      See Live
+                    </a>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn text-color-main mini-source"
+                      id="mini-source"
+                      href="https://github.com/psyllusionist/music-player"
+                    >
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+              </div>         
+
+            <!-- /END Project -->
+
+            <!-- Each .mini-project is a project -->
+
+            <div class="mini-project">
+                <div class="mini-project-text">
+                  <h3 class="mini-project-text-title">Custom Countdown</h3>
+                  <div class="mini-project-image">
+                  <a rel="noreferrer" href="https://psyllusionist.github.io/custom-countdown/" target="_blank">
+                    <div data-tilt class="thumbnail rounded js-tilt">
+                      <img
+                        alt="Project Image"
+                        class="img-fluid"
+                        src="assets/mini-project9.png"
+                      />
+                    </div>
+                  </a>
+                </div>
+                <div class="mini-link-container">
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn cta-btn--hero mini-btn"
+                      id="mini-btn"
+                      href="https://psyllusionist.github.io/custom-countdown/"
+                    >
+                      See Live
+                    </a>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn text-color-main mini-source"
+                      id="mini-source"
+                      href="https://github.com/psyllusionist/custom-countdown"
+                    >
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+              </div>         
+
+            <!-- /END Project -->
+
+                       
+
+            </div>
+        </div>
+    </section>
+
+     <!-- /END Mini Projects Section -->
 
     <!-- **** Contact Section **** -->
     <section id="contact">
@@ -286,5 +717,6 @@
         <hr />
         
     <!-- /END Footer Section -->
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
