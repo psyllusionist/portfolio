@@ -29,6 +29,13 @@ export default function smallProjects() {
 		console.log('its')
 	}
 
+		//Check if the page href links to smaller projects
+	const checkLink = () => {
+		if(window.location.href.includes("js-projects")) {
+			openMiniProjects();
+		};
+	}
+
 	// Event Listeners
 	openBtn.addEventListener('click', openMiniProjects);
 	openImg.addEventListener('click', openMiniProjects);
@@ -36,4 +43,5 @@ export default function smallProjects() {
 
 	// On Load
 	unhide();
+	checkLink();
 }
